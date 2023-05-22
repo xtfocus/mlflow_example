@@ -1,0 +1,5 @@
+{
+    "green_tripdata_2022-01": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-01.parquet",
+    "green_tripdata_2022-02": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-02.parquet",
+    "green_tripdata_2022-03": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-03.parquet"
+}
