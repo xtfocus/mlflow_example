@@ -22,3 +22,29 @@ After this command, you should see an `./output` dir whose content look like thi
 `-- [2.2M]  val.pkl
 ```
 
+# Run experiments
+```
+mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts
+```
+to tell `mlflow` to store artifacts in ./artifacts
+
+
+## First experiment: train.py
+
+Run 
+```
+python train.py
+```
+
+## Second experiment: optuna
+
+Run
+```
+python hpo.py
+```
+
+## Test & Register the best model
+
+```
+python register_model.py
+```
